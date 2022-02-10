@@ -4,23 +4,12 @@
 <head>
   <meta charset="utf-8">
   <title>Gerben's Personal Site</title>
-
-  <style>
-    body {
-      background-color: #DBE2EF;
-    }
-
-    hr {
-      border-style: dotted none none;
-      border-width: 5px;
-      border-color: #F9F7F7;
-      width: 5%;
-    }
-  </style>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body style="background-color: #DBE2EF;">
-  <script type="text/javascript">
+<body>
+
+  <!-- <script type="text/javascript">
 (function(window, document, dataLayerName, id) {
 window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
 function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
@@ -29,18 +18,18 @@ var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName)
 tags.async=!0,tags.src="https://avinty-ggz.containers.piwik.pro/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
 !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
 })(window, document, 'dataLayer', 'daadca28-daca-48c1-a282-1f1477a9e62b');
-</script><noscript><iframe src="https://avinty-ggz.containers.piwik.pro/daadca28-daca-48c1-a282-1f1477a9e62b/noscript.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+</script><noscript><iframe src="https://avinty-ggz.containers.piwik.pro/daadca28-daca-48c1-a282-1f1477a9e62b/noscript.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
 
 
   <table cellspacing='20'>
     <tr>
       <td>
-        <img src="Images/Profile picture.png" alt="Gerben profile picture">
+        <img class='profilepic' src="Images/Profile picture.png" alt="Gerben profile picture">
       </td>
       <td>
         <h1>Gerben Drees</h1>
         <p><em>Product Designer at <strong><a href='https://Avinty.com'>Avinty</a></strong>.</em></p>
-        <p>
+        <p class='intro'>
           As a product designer my work is to make sure our users
           get the optimal user experience when using our products.
           I do that by making sure our applications are intuitive,
@@ -51,31 +40,30 @@ tags.async=!0,tags.src="https://avinty-ggz.containers.piwik.pro/"+id+".js"+qPStr
     </tr>
   </table>
 
-
-  <hr />
-
   <h3>Education</h3>
   <ul>
     <li>
-      <a href='https://www.utwente.nl/en/'>University of Twente</a> (2017-2018)
+      <p style="display:inline">
+        <a href='https://www.utwente.nl/en/'>University of Twente</a> (2017-2018)
+      </p>
       <ul>
         <li>
-          Health Sciences
+          <p style="display:inline">Health Sciences</p>
         </li>
       </ul>
     </li>
     <br />
     <li>
-      <a href='https://www.saxion.edu/'>Saxion University of Applied Sciences</a> (2012-2016)
+      <p style="display:inline">
+        <a href='https://www.saxion.edu/'>Saxion University of Applied Sciences</a> (2012-2016)
+      </p>
       <ul>
         <li>
-          Biology & Medical Laboratory Research
+          <p style="display:inline">Biology & Medical Laboratory Research</p>
         </li>
       </ul>
     </li>
   </ul>
-
-  <hr />
 
   <h3>Work experience</h3>
 
@@ -104,8 +92,6 @@ tags.async=!0,tags.src="https://avinty-ggz.containers.piwik.pro/"+id+".js"+qPStr
     </tbody>
   </table>
 
-  <hr />
-
   <h3>Skills</h3>
 
   <table cellspacing='10'>
@@ -113,46 +99,43 @@ tags.async=!0,tags.src="https://avinty-ggz.containers.piwik.pro/"+id+".js"+qPStr
       <td>
         Prototyping
       </td>
-      <td>
-        &#9733; &#9733; &#9733; &#9733; &#9734;
+      <td class='stars'>
+        &#9733; &#9733; &#9733; &#9733;
       </td>
     </tr>
     <tr>
       <td>
         Usability testing
       </td>
-      <td>
-        &#9733; &#9733; &#9733; &#9734; &#9734;
+      <td class='stars'>
+        &#9733; &#9733; &#9733;
       </td>
     </tr>
     <tr>
       <td>
         HTML(5)
       </td>
-      <td>
-        &#9733; &#9734; &#9734; &#9734; &#9734;
+      <td class='stars'>
+        &#9733;
       </td>
     </tr>
     <tr>
       <td>
         CSS(3)
       </td>
-      <td>
-        &#9733; &#9734; &#9734; &#9734; &#9734;
+      <td class='stars'>
+        &#9733;
       </td>
     </tr>
   </table>
 
+  <br />
 
-  <hr />
+  <a href='my-hobbies.html'>&#10145; My hobbies</a>
 
   <br />
 
-  <a href='my-hobbies.html'>My hobbies</a>
-
-  <br />
-
-  <a href='contact-me.html'>Contact Me</a>
+  <a href='contact-me.html'> &#10145; Contact Me</a>
 
 </body>
 

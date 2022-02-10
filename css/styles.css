@@ -1,0 +1,68 @@
+body {
+  background-color: #F9F7F7;
+}
+
+.profilepic {
+  border: 5px solid #112D4E;
+  border-radius: 150px;
+}
+
+h1 {
+  color: #112D4E;
+  letter-spacing: 1px;
+  font-family: "Open Sans", sans-serif;
+}
+
+h3 {
+  background-color: #DBE2EF;
+  color: #112D4E;
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: #127CBE;
+  font-family: "Open Sans", sans-serif;
+}
+
+td {
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+}
+
+.stars {
+  color: darkgoldenrod;
+}
+
+th {
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+}
+
+.intro {
+  font: 'open sans';
+  letter-spacing: 0.5px;
+  text-align: justify;
+}
+
+label {
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+}
+
+input[type=submit] {
+  padding: 5px 15px;
+  background: #127CBE;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+.navback {
+  padding: 5px 15px;
+color: #333;
+background-color: #CCC
+}
